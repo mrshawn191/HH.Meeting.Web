@@ -14,20 +14,20 @@ import Login from "./components/register/Login";
 import Logout from "./components/register/Logout";
 // Chatrooms
 import ChatroomDetails from "./components/chatroom/ChatroomDetails";
-import ListChatrooms from "./components/chatroom/ListChatrooms";
-import NewChatroom from "./components/chatroom/NewChatroomContainer";
+import ListChatrooms from "./components/chatroom/ChatroomsList";
+import NewChatroom from "./components/chatroom/ChatroomNewContainer";
 // Meetings
-import ListMeetings from "./components/meeting/ListMeetings";
-import NewMeeting from "./components/meeting/NewMeeting";
+import ListMeetings from "./components/meeting/MeetingsList";
+import NewMeeting from "./components/meeting/MeetingNewContainer";
 import MeetingDetails from "./components/meeting/MeetingDetails";
-import UpcomingMeetings from "./components/meeting/UpcomingMeetings";
+import UpcomingMeetings from "./components/meeting/MeetingsAllList";
 // Business
 import BusinessRegister from "./components/business/BusinessRegister";
 import BusinessLogin from "./components/business/BusinessLogin";
 import BusinessDashboard from "./components/business/BusinessDashboard";
 import BusinessLogout from "./components/business/BusinessLogout";
 // Info
-import UserProfile from "./components/settings/Profile";
+import UserProfile from "./components/setting/Profile";
 import Privacy from "./components/info/Privacy";
 import Faq from "./components/info/Faq";
 
@@ -57,7 +57,7 @@ ReactDOM.render(
                     <Route path="/chatrooms/:chatroomId/meetings" component={ListMeetings}/>
                     <Route path="/chatrooms/:chatroomId/meetings/new" component={NewMeeting}/>
                     <Route path="/chatrooms/:chatroomId/meetings/:meetingId" component={MeetingDetails}/>
-                    <Route path="/chatrooms/joined" component={JoinedChatrooms}/>
+                    <Route path="/chatrooms/joined" component={ChatroomsJoined}/>
                     <Route path="/meetings/upcoming" component={UpcomingMeetings}/>
                     <Route path="/settings" component={Settings}/>
                     <Route path="/settings/profile" component={UserProfile}/>

@@ -9,11 +9,10 @@ for (let i = 0; i < 15; i++) {
 	groupSize.push(<MenuItem value={i} key={i} primaryText={`${i}`}/>);
 }
 
-class NewChatroomContainer extends Component {
+class ChatroomNewContainer extends Component {
 	
 	constructor(props) {
 		super(props);
-		
 		this.state = {
 			title: '',
 			description: '',
@@ -85,4 +84,4 @@ function mapDispatchToProps(dispatch) {
 	};
 }
 
-export default connect(null, mapDispatchToProps)(NewChatroomContainer)
+export default connect(null, mapDispatchToProps)(ChatroomNewContainer)
