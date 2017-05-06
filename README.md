@@ -2,11 +2,9 @@
 
 This is the frontend application for HH.Meeting that is implemented in React/Redux. To get this project running you need to setup the .NET Api locally first.
 
-The link to the project is here - [HH.Meeting](https://github.com/mrshawn191/HH.Meeting/tree/master)
+The link to the .NET Api is here - [HH.Meeting](https://github.com/mrshawn191/HH.Meeting/tree/master)
 
 ## Application Design
-
-
 
 ## Getting started
 

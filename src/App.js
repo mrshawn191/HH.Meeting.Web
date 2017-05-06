@@ -27,7 +27,7 @@ import BusinessLogin from "./components/business/BusinessLogin";
 import BusinessDashboard from "./components/business/BusinessDashboard";
 import BusinessLogout from "./components/business/BusinessLogout";
 // Info
-import UserProfile from "./components/settings/UserProfile";
+import UserProfile from "./components/settings/Profile";
 import Privacy from "./components/info/Privacy";
 import Faq from "./components/info/Faq";
 
@@ -75,5 +75,5 @@ ReactDOM.render(
             </Router>
         </Provider>
     </MuiThemeProvider>,
-    document.getElementById('app')
+    document.getElementById('root')
 );
