@@ -48,7 +48,7 @@ class NewMeeting extends Component {
 			location: this.state.location,
 			scheduledAt: this.state.scheduledAt
 		}
-		this.props.createMeeting(payload);
+		this.props.createChatroom(payload);
 	}
 	
 	render() {

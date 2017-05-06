@@ -15,7 +15,7 @@ import Logout from "./components/register/Logout";
 // Chatrooms
 import ChatroomDetails from "./components/chatroom/ChatroomDetails";
 import ListChatrooms from "./components/chatroom/ListChatrooms";
-import NewChatroom from "./components/chatroom/NewChatroom";
+import NewChatroom from "./components/chatroom/NewChatroomContainer";
 // Meetings
 import ListMeetings from "./components/meeting/ListMeetings";
 import NewMeeting from "./components/meeting/NewMeeting";
